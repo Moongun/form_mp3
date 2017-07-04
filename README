@@ -1,0 +1,12 @@
+CREATE DATABASE formMP3;
+
+CREATE TABLE mp3(
+id INT not null AUTO_INCREMENT,
+title VARCHAR(255) not null,
+author VARCHAR(255) not null,
+album VARCHAR(255) not null,
+path VARCHAR(255) not null,
+PRIMARY KEY(id)
+);
+
+
